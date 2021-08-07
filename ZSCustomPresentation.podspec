@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZSCustomPresentation'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = '自定义Present'
 
 # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.author           = { 'zhangs1992@126.com' => 'zhangs1992@126.com' }
   s.source           = { :git => 'https://github.com/TaylorsZ/ZSCustomPresentation.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.swift_version='5.0'
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'ZSCustomPresentation/Classes/**/*'
