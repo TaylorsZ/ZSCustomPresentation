@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ZSCustomPresentation_Tests' do
+  pod 'ZSCustomPresentation', :path => '../'
+  
+  
+end
